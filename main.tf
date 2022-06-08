@@ -1,3 +1,13 @@
+terraform {
+  cloud {
+    organization = "jellayy"
+
+    workspaces {
+      name = "atlantis-testing"
+    }
+  }
+}
+
 provider "aws" {
   region = "us-west-1" # Any AWS EC2 Region
 }
