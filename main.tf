@@ -3,7 +3,7 @@ terraform {
     organization = "jellayy"
 
     workspaces {
-      name = "more-atlantis-test"
+      name = "atlantis-testing"
     }
   }
 }
